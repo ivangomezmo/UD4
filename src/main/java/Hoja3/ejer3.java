@@ -8,21 +8,22 @@ package Hoja3;
  *
  * @author DAW107
  */
-public class ejer1 {
+public class ejer3 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Programa que gestiona las puntuaciones de los triatletas");
         
-        Triatlon t2 = new Triatlon(14, "Pablo",  2);
+        Comunidad aragon = new Comunidad("Aragon", 3);
         
-        System.out.println(t2.pMedia());
+        System.out.println(aragon.mostrar());
+        System.out.println("HACEMOS UN SORTEO");
+        System.out.println(aragon.sorteo());
         
-        System.out.println(t2.mostrar());
+        System.out.println("huesca");
         
+        System.out.println("cuenca");
     }
     
 }

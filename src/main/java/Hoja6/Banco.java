@@ -18,6 +18,7 @@ public class Banco {
     public Banco(int cuantos){
         this.clientes = new Cliente[cuantos];
         this.contador = 0;
+        System.out.println("");
         
     }
     

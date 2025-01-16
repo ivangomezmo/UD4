@@ -8,21 +8,17 @@ package Hoja3;
  *
  * @author DAW107
  */
-public class ejer1 {
+public class ejer2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Programa que gestiona las puntuaciones de los triatletas");
         
-        Triatlon t2 = new Triatlon(14, "Pablo",  2);
+        Curso daw1 = new Curso("DAW1", 4);
         
-        System.out.println(t2.pMedia());
-        
-        System.out.println(t2.mostrar());
-        
+        daw1.desplaza();
+        daw1.iniciales();
     }
     
 }
